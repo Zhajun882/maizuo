@@ -1,0 +1,21 @@
+#menu-box{
+  width: 100%;
+  z-index: 10000;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  flex: 1
+}
+.menu>a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 28px;
+  color: #797d82;
+}
+.menu>a>i{
+  display: block;
+}
